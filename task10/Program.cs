@@ -17,7 +17,6 @@ int GetSecondNumber(int number)
     int firstDigit = number / 10;
     int secondDigit = firstDigit % 10;
     return secondDigit;
-
 }
 int randomNumber = GetRandomNumberInRange(100, 999);
 Console.WriteLine(randomNumber);
